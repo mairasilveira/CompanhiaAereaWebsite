@@ -41,3 +41,29 @@ body {
   i {
     font-size: 1.3rem;
   }
+
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 0;
+  }
+
+  header nav ul {
+    display: flex;
+    overflow: visible;
+    margin: 0 100px;
+  }
+
+  header nav li {
+    margin: 0 15px;
+  }
+
+  .ion-plane {
+
+  }
