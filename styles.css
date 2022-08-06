@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    background: url('https://images.unsplash.com/photo-1547357247-65c96cee979f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80') no-repeat center center fixed;
+    background: url('https://images.unsplash.com/photo-1510004562889-0d4db4f3367a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -32,7 +32,7 @@ body {
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: 7rem;
     font-weight: 700;
     color: #fff;
     margin: 0 0 1.5rem;
@@ -51,19 +51,100 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 10px 0;
+    padding: 10px 10px 0px;
+    margin-left: 20px;
   }
 
   header nav ul {
     display: flex;
-    overflow: visible;
-    margin: 0 100px;
+    margin: 20px 100px;
   }
 
   header nav li {
     margin: 0 15px;
   }
 
-  .ion-plane {
+  a.btn {
+    color: #fff;
+    padding: 10px;
+    border: 1px solid rgba(255,255,255,0.5);
+    transition: all 0.2s;
+  }
 
+  a.btn:hover {
+    background: #d73851;
+    border: 1px solid #d73851;
+    color: #fff;
+  }
+
+  .cover  {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0px;
+  }
+
+  .flex-form input[type="submit"] {
+    background: #ef3f5a;
+    border: 1px solid #ef3f5a;
+    color: #fff;
+    padding: 0 30px;
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+
+  .flex-form input[type="submit"]:hover {
+    background: #d73851;
+    border: 1px solid #d73851;
+  }
+
+  .flex-form {
+    display: flex;
+    position: relative;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.3);
+  }
+
+  .flex-form > * {
+    border: 0;
+    padding: 0 0 0 10px;
+    background: #fff;
+    line-height: 50px;
+    font-size: 1rem;
+    border-radius: 0;
+    outline: 0;
+  }
+
+  input[type="search"] {
+    flex-basis: 500px;
+  }
+
+  #footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  }
+
+  #footer ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #footer li {
+    margin: 3px;
+  }
+
+  span {
+    color: #fff;
+  }
+
+  .flex-form > * {
+    font-size: 0.9rem;
   }
