@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<div lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Viagem</title>
+    <title>JS Airlines</title>
     <link href="styles.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/459fa6842d.js" crossorigin="anonymous" defer></script>
 </head>
 
-<body>
+<div>
 
     <header>
-        <h2><a href="#"><i class="ion-plane"></i> JS Airlines</a></h2>
+        <h2><a href="#">JS Airlines <i class="fa-solid fa-plane"></i></a></h2>
         <nav>
             <ul>
                 <li>
@@ -41,19 +41,30 @@
             <input type="submit" value="Search">
         </form>
 
+        <nav>
+            <ul class="pagination">
+              <li class="page-item">
+                <a id="previous" class="page-link" tabindex="-1">Previous</a>
+              </li>
+              <li class="page-item">
+                <a id="next" class="page-link">Next</a>
+              </li>
+            </ul>
+          </nav>
+
         <div id="footer">
             <ul>
                 <li>
                     <a href="#" title="Terms">© JS Airlines</a>
                 </li>
                 <li>
-                    <span>|</span>
+                    <span class="line">|</span>
                 </li>
                 <li>
                     <a href="#" title="Flights">Termos e condições</a>
                 </li>
                 <li>
-                    <span>|</span>
+                    <span class="line">|</span>
                 </li>
                 <li>
                     <a href="#" title="Tours">Política de privacidade</a>
@@ -62,6 +73,9 @@
           </div>
 
           <script src="script.js"></script>
+          </div>
+        </div>
+    </div>
 </body>
 
 </html>

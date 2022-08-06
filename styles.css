@@ -64,14 +64,14 @@ body {
     margin: 0 15px;
   }
 
-  a.btn {
+  .btn {
     color: #fff;
     padding: 10px;
     border: 1px solid rgba(255,255,255,0.5);
     transition: all 0.2s;
   }
 
-  a.btn:hover {
+  .btn:hover {
     background: #d73851;
     border: 1px solid #d73851;
     color: #fff;
@@ -84,7 +84,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 90px 0px;
+    padding: 76px 0px;
   }
 
   .flex-form input[type="submit"] {
@@ -141,10 +141,43 @@ body {
     margin: 3px;
   }
 
-  span {
+  .line {
     color: #fff;
   }
 
   .flex-form > * {
     font-size: 0.9rem;
   }
+
+  /* botões */
+
+  .pagination {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .page-item {
+    padding: 0px 2px;
+    margin-top: 10px;
+  }
+
+  .page-link {
+    color: #fff;
+    padding: 0px 7px;
+    border: 1px solid rgba(255,255,255,0.5);
+    transition: all 0.2s;
+    font-size: 0.9rem;
+  }
+
+  .page-link:hover {
+    background: #d73851;
+    border: 1px solid #d73851;
+    color: #fff;
+  }
+
+ 
+
+
+
+  
