@@ -139,6 +139,7 @@ body {
 
   .line {
     color: #fff;
+    font-size: .8rem;
   }
 
   .flex-form > * {
