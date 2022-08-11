@@ -4,36 +4,52 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
-    background: url('https://images.unsplash.com/photo-1547357247-65c96cee979f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    background: url('https://images.unsplash.com/photo-1449149988769-3e30c0e9d61e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     overflow: hidden;
 }
 
+i {
+    font-size: 1.5rem;
+    color: #fff; 
+}
+
+.logo {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.7rem;
+    color: #fff;
+  }
+
+header {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
 form {
-    border: 1px solid rgba(255,255,255,0.5);
     max-width: 500px;
     width: 70%;
     padding: 20px;
-    border-radius: 20px;
     position: absolute;
     left: 50%;
     top: 50%; /* o ponto superior do form ficaria no centro */
     transform: translate(-50%, -50%); /*o transform tira essa diferença dos 50% e centraliza o form todo */
-    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-   7px 7px 20px 0px rgba(0,0,0,.1),
-   4px 4px 5px 0px rgba(0,0,0,.1);
 }
 
 form h3 {
     text-align: center;
-    color: #ef3f5a;
+    color: #fff;
     font-family: 'Lato', sans-serif;
-    font-size: 2rem;
+    font-size: 3.7rem;
+}
+
+h3::first-letter {
+    color: #d73851
 }
 
 form input[type=text],
@@ -67,6 +83,33 @@ form input[type=submit] {
 form input[type="submit"]:hover {
     background: #d73851;
     border: 1px solid #d73851;
-    letter-spacing: 6px;
+  }
+
+  .text--center {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: .8rem;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+
+  .sign {
+    color: #d73851;
+    text-decoration: underline;
+  }
+
+  #footer {
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: .8rem;
+  }
+
+  .text-footer {
+    color: #fff;
   }
 

@@ -6,15 +6,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Login</title>
         <link href="login.css" rel="stylesheet" type="text/css">
+        <script src="https://kit.fontawesome.com/459fa6842d.js" crossorigin="anonymous" defer></script>
     </head>
 
     <body>
+        <header>
+            <a class="logo" href="#">JS Airlines <i class="fa-solid fa-plane"></i></a>
+        </header>
+
         <form>
             <h3>LOGIN</h3>
             <input id="email" type="text" name="email" placeholder="E-mail">
             <input id="password" type="password" name="senha" placeholder="Senha">
             <input type="submit" name="acao" value="Enviar">
+            <p class="text--center">Não é inscrito? <a class="sign" href="#"> Cadastre-se</a>
         </form>
+
+        <div id="footer">
+            <a class="text-footer" href="#" title="Terms">© JS Airlines</a>
+        </div>
 
         <script src="login.js"></script>
     </body>
